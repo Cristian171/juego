@@ -1,6 +1,6 @@
 ## Juego Plataforma
 
-# Corgi Buttock :hankey:
+# Corgi Buttock :heart:
 
 
 ## Colaboradores  
