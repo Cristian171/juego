@@ -5,6 +5,8 @@
 # HISTORY
 *https://docs.google.com/document/d/1ba7s1h_61aEm4iwbgetFD6cxHiawBRVuXDT9zY0WsZM/edit?usp=drivesdk
 
+## Task
+https://docs.google.com/document/d/17HvLuOH8CDsw2ghvaoHnma-2MQz6HJ9zFqR-a7bOoU8/edit?usp=sharing
 
 ## Colaboradores  
   - [Cristian Usuga](https://github.com/Cristian171)
