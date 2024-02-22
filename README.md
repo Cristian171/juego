@@ -15,13 +15,13 @@ En "La búsqueda de la cola perdida: Aventuras de Corgi", te embarcarás en un v
 - **Mecánica de salto:** Domina la habilidad de salto de Winston para superar obstáculos y alcanzar lugares altos.
 - **Recolección de objetos:** Encuentra y recolecta objetos dispersos por cada nivel para desbloquear recompensas especiales y mejorar tu puntuación.
 - **Portales:** Descubre portales misteriosos que te llevarán a nuevas áreas y te ayudarán a avanzar en tu búsqueda.
-- **Llaves:** Busca llaves ocultas para desbloquear puertas y acceder a áreas secretas llenas de tesoros.
+- **Llaves:** Busca llaves ocultas para desbloquear puertas y acceder a áreas secretas.
 
 ## Cómo jugar
 
 - Utiliza las teclas de flecha o los controles en pantalla para mover a Winston.
 - Presiona la tecla de espacio para saltar.
-- Recolecta todos los objetos que encuentres en tu camino para obtener una puntuación alta.
+- Recolecta todos los objetos que encuentres en tu camino.
 - Busca y utiliza portales para alcanzar áreas inaccesibles.
 - Encuentra las llaves escondidas para abrir puertas y descubrir secretos ocultos.
 
@@ -33,21 +33,11 @@ En "La búsqueda de la cola perdida: Aventuras de Corgi", te embarcarás en un v
 - **Procesador:** Dual Core 2.0 GHz o superior
 - **Gráficos:** Tarjeta gráfica compatible con OpenGL 3.0 o superior
 
-## Créditos
-
-- **Desarrollador:** [Tu nombre o nombre de tu equipo]
-- **Diseñador de juegos:** [Nombre del diseñador, si aplica]
-- **Música y efectos de sonido:** [Créditos de la música y efectos utilizados, si aplica]
-
-## Contribuir
-
-¡Si quieres contribuir al desarrollo de "La búsqueda de la cola perdida: Aventuras de Corgi", no dudes en hacerlo! Siéntete libre de enviar pull requests con mejoras, correcciones de errores o nuevas características.
-
 ## Licencia
 
 Este juego está bajo la licencia [inserta la licencia aquí, por ejemplo, MIT License]. Consulta el archivo LICENSE.md para obtener más información.
 
-¡Gracias por jugar a "La búsqueda de la cola perdida: Aventuras de Corgi"! ¡Esperamos que disfrutes de esta emocionante aventura junto a Winston y su fiel compañero Barkley!
+¡Gracias por jugar a "La búsqueda de la cola perdida: Aventuras de Corgi"! ¡Esperamos que disfrutes de esta emocionante aventura junto a Winston!
 
 
 ## Documentos
