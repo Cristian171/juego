@@ -1,6 +1,7 @@
 ## Juego Plataforma
 
 # Sin Assiento :heart:
+![Sin ASsiento](https://media.discordapp.net/attachments/876619774044549130/1210244307135500348/iniciotitulo.png?ex=65e9dad8&is=65d765d8&hm=8046c19f956509492877d5d80d2d1f20f28464c3ce88d057363bf1c2204fd59a&=&format=webp&quality=lossless&width=931&height=662)
 
 
 ## Documentos
@@ -10,6 +11,8 @@
 [Task](https://docs.google.com/document/d/17HvLuOH8CDsw2ghvaoHnma-2MQz6HJ9zFqR-a7bOoU8/edit?usp=sharing)
 
 [Documentacion](https://corgi-engine-docs.moremountains.com/scenes.html)
+
+
 
 ## Colaboradores  
   - [Cristian Usuga](https://github.com/Cristian171)
