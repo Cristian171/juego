@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8239462628835178656
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4196273490033628, guid: 49d4c070e8b68be47ac21cc26f39a84c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196273490033628, guid: 49d4c070e8b68be47ac21cc26f39a84c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 154.93001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196273490033628, guid: 49d4c070e8b68be47ac21cc26f39a84c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -40.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196273490033628, guid: 49d4c070e8b68be47ac21cc26f39a84c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196273490033628, guid: 49d4c070e8b68be47ac21cc26f39a84c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196273490033628, guid: 49d4c070e8b68be47ac21cc26f39a84c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196273490033628, guid: 49d4c070e8b68be47ac21cc26f39a84c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196273490033628, guid: 49d4c070e8b68be47ac21cc26f39a84c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 49d4c070e8b68be47ac21cc26f39a84c, type: 3}
+--- !u!1 &8240978989693074414 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1588939153425230, guid: 49d4c070e8b68be47ac21cc26f39a84c,
+    type: 3}
+  m_PrefabInstance: {fileID: 8239462628835178656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &877590003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8240978989693074414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86fd837a0abc28d4d91c55590bd2c090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Item: {fileID: 11400000, guid: f2e386dbe5b7f2b4bbfd673eadd007ce, type: 2}
+  Quantity: 5
+  RemainingQuantity: 1
+  PickableIfInventoryIsFull: 0
+  DisableObjectWhenDepleted: 0
