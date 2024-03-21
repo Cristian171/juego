@@ -33,14 +33,11 @@ En "La búsqueda de la cola perdida: Aventuras de Corgi", te embarcarás en un v
 
 ## Licencia
 
-Este juego está bajo la licencia [inserta la licencia aquí, por ejemplo, MIT License]. Consulta el archivo LICENSE.md para obtener más información.
-
 ¡Gracias por jugar a "La búsqueda de la cola perdida: Aventuras de Corgi"! ¡Esperamos que disfrutes de esta emocionante aventura junto a Winston!
 
 
 ## Documentos
 - [Historia del juego](https://docs.google.com/document/d/1ba7s1h_61aEm4iwbgetFD6cxHiawBRVuXDT9zY0WsZM/edit?usp=drivesdk)
-- [Tareas pendientes](https://docs.google.com/document/d/17HvLuOH8CDsw2ghvaoHnma-2MQz6HJ9zFqR-a7bOoU8/edit?usp=sharing)
 - [Documentación del motor de juego (Corgi Engine)](https://corgi-engine-docs.moremountains.com/scenes.html)
 - [Presentacion](https://www.canva.com/design/DAF9h-uVMn4/tu_zCI9WZ3mcLWw-gYkCsA/edit?utm_content=DAF9h-uVMn4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
