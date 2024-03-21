@@ -7,7 +7,7 @@ public class PopUp : MonoBehaviour
 
     public GameObject ventanaActivar;
 
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
         // Comprobar si el objeto que hizo contacto tiene la etiqueta "Player"
         if (other.CompareTag("Player"))
@@ -16,5 +16,12 @@ public class PopUp : MonoBehaviour
             ventanaActivar.SetActive(true);
         }
 
+    }*/
+
+    public void AbrirVentana(){
+        if(ventanaActivar!=null){
+            ventanaActivar.SetActive(true);
+        }
     }
+
     }
