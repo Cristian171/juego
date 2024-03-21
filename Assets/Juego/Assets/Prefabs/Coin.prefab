@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1399602691157140764}
   - component: {fileID: 4004815289232499755}
   - component: {fileID: 7477074319232264339}
+  - component: {fileID: -2613779675866704891}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -132,3 +133,24 @@ MonoBehaviour:
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
   PointsToAdd: 10
+--- !u!114 &-2613779675866704891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7402804183009886234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 0
+  RepositionToInitOnPlayerRespawn: 1
+  DisableOnKill: 1
+  AutoRespawnDuration: 1.04
+  AutoRespawnAmount: -1
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
