@@ -1,6 +1,4 @@
-![image](https://github.com/Cristian171/juego/assets/72422960/774a78b5-91dd-4705-9f0a-b69d4bb3280c)![image](https://github.com/Cristian171/juego/assets/72422960/566a610f-6d8d-4d7d-9493-0a04688b424a)<h1 align="center">Juego de Plataforma</h1>
-
-![Inicio del juego]()
+![Inicio del juego](https://cdn.discordapp.com/attachments/876619774044549130/1210244307135500348/iniciotitulo.png?ex=66058a58&is=65f31558&hm=ca8979d878eae09a27165fed067c760454ed0bb46667197fb4e9c8848826dad1&)
 
 # La búsqueda de la cola perdida: Aventuras de Corgi
 
