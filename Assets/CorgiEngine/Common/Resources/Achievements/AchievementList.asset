@@ -76,13 +76,13 @@ MonoBehaviour:
     ProgressCurrent: 0
   - AchievementID: Portal
     AchievementType: 0
-    HiddenAchievement: 1
+    HiddenAchievement: 0
     UnlockedStatus: 0
     Title: Viaje Espacial
     Description: Entra a un portal
     Points: 25
     LockedImage: {fileID: 21300000, guid: a9ce502de8c7b2d49a9c0a5c524bf89c, type: 3}
-    UnlockedImage: {fileID: 21300000, guid: a9ce502de8c7b2d49a9c0a5c524bf89c, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: d862845391fe41e4bac2800f7559c9ed, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 0
     ProgressCurrent: 0

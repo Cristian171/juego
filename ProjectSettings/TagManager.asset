@@ -8,6 +8,7 @@ TagManager:
   - Music
   - Background
   - NoMask
+  - Portal
   layers:
   - Default
   - TransparentFX

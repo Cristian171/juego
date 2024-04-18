@@ -3749,7 +3749,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &632357109
 Transform:
   m_ObjectHideFlags: 0
@@ -25562,6 +25562,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -28
       objectReference: {fileID: 0}
+    - target: {fileID: 22460478, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -229.00002
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
 --- !u!1 &1166102016
@@ -25972,6 +25976,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RetroPortalBlue Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013552351244949761, guid: c880172b5faf5af4fb23dd87df196d5b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Portal
       objectReference: {fileID: 0}
     - target: {fileID: 7015881854445196071, guid: c880172b5faf5af4fb23dd87df196d5b,
         type: 3}
@@ -28120,10 +28129,30 @@ PrefabInstance:
       propertyPath: Destination
       value: 
       objectReference: {fileID: 1480706186}
+    - target: {fileID: 6973821332949504865, guid: c880172b5faf5af4fb23dd87df196d5b,
+        type: 3}
+      propertyPath: OnActivation.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973821332949504865, guid: c880172b5faf5af4fb23dd87df196d5b,
+        type: 3}
+      propertyPath: OnActivation.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973821332949504865, guid: c880172b5faf5af4fb23dd87df196d5b,
+        type: 3}
+      propertyPath: OnActivation.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7013552351244949761, guid: c880172b5faf5af4fb23dd87df196d5b,
         type: 3}
       propertyPath: m_Name
       value: RetroPortalBlue
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013552351244949761, guid: c880172b5faf5af4fb23dd87df196d5b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Portal
       objectReference: {fileID: 0}
     - target: {fileID: 7015881854445196071, guid: c880172b5faf5af4fb23dd87df196d5b,
         type: 3}
@@ -28133,12 +28162,12 @@ PrefabInstance:
     - target: {fileID: 7015881854445196071, guid: c880172b5faf5af4fb23dd87df196d5b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 204.16519
+      value: -43.4
       objectReference: {fileID: 0}
     - target: {fileID: 7015881854445196071, guid: c880172b5faf5af4fb23dd87df196d5b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.123205
+      value: 7.4
       objectReference: {fileID: 0}
     - target: {fileID: 7015881854445196071, guid: c880172b5faf5af4fb23dd87df196d5b,
         type: 3}
