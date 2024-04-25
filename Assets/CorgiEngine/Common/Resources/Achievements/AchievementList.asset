@@ -39,7 +39,7 @@ MonoBehaviour:
     ProgressTarget: 10
     ProgressCurrent: 0
   - AchievementID: MoneyMoneyMoney
-    AchievementType: 0
+    AchievementType: 1
     HiddenAchievement: 0
     UnlockedStatus: 0
     Title: Money Money Money
@@ -74,15 +74,87 @@ MonoBehaviour:
     UnlockedSound: {fileID: 0}
     ProgressTarget: 0
     ProgressCurrent: 0
-  - AchievementID: Portal
+  - AchievementID: Money
+    AchievementType: 1
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: Money
+    Description: Recoge una moneda
+    Points: 10
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300002, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 1
+    ProgressCurrent: 0
+  - AchievementID: FirstBlood
     AchievementType: 0
     HiddenAchievement: 0
     UnlockedStatus: 0
-    Title: Viaje Espacial
-    Description: Entra a un portal
+    Title: Primera sangre
+    Description: "Recibe da\xF1o por primera vez"
     Points: 25
-    LockedImage: {fileID: 21300000, guid: a9ce502de8c7b2d49a9c0a5c524bf89c, type: 3}
-    UnlockedImage: {fileID: 21300000, guid: d862845391fe41e4bac2800f7559c9ed, type: 3}
+    LockedImage: {fileID: 21300000, guid: 52acbc5f17607ea4aa981574d8741390, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: 52acbc5f17607ea4aa981574d8741390, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 0
+    ProgressCurrent: 0
+  - AchievementID: Respawn
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: De pie de nuevo
+    Description: Respawnea por primera vez
+    Points: 5
+    LockedImage: {fileID: 21300000, guid: b1d17a7743801f847adbf36ed1437282, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: b1d17a7743801f847adbf36ed1437282, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  - AchievementID: LookDown
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: "\xBFQu\xE9 buscas?"
+    Description: Agachate por primera vez
+    Points: 5
+    LockedImage: {fileID: 21300000, guid: e3ff2bb712212bf43a60e62bea0e318b, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: e3ff2bb712212bf43a60e62bea0e318b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  - AchievementID: MoneyMoney
+    AchievementType: 1
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: Money Money
+    Description: Recoge 2 Monedas
+    Points: 15
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300002, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 2
+    ProgressCurrent: 0
+  - AchievementID: ProJump
+    AchievementType: 1
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: Saltador profesional
+    Description: salta 100 veces
+    Points: 20
+    LockedImage: {fileID: 21300000, guid: e3ff2bb712212bf43a60e62bea0e318b, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: e3ff2bb712212bf43a60e62bea0e318b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 100
+    ProgressCurrent: 0
+  - AchievementID: MoneyMoney
+    AchievementType: 1
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: Money Money
+    Description: Recoge 2 Monedas
+    Points: 15
+    LockedImage: {fileID: 21300000, guid: e3ff2bb712212bf43a60e62bea0e318b, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: e3ff2bb712212bf43a60e62bea0e318b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 2
     ProgressCurrent: 0

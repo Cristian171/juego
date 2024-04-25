@@ -3514,7 +3514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86fd837a0abc28d4d91c55590bd2c090, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Item: {fileID: 11400000, guid: 9cd89b7e9c427dd44bc210e583aade65, type: 2}
+  Item: {fileID: 11400000, guid: 2c6c3c9fc82f7484ab8b3ee19e0a0cad, type: 2}
   Quantity: 25
   RemainingQuantity: 1
   PickableIfInventoryIsFull: 0
@@ -77853,7 +77853,7 @@ PrefabInstance:
     - target: {fileID: 11455746, guid: 8e3b87501a6ef0246a7a5e8e2dc5e4f9, type: 3}
       propertyPath: Item
       value: 
-      objectReference: {fileID: 11400000, guid: 23f15b9bad261b545acbe8659a1d279a,
+      objectReference: {fileID: 11400000, guid: 2c6c3c9fc82f7484ab8b3ee19e0a0cad,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e3b87501a6ef0246a7a5e8e2dc5e4f9, type: 3}

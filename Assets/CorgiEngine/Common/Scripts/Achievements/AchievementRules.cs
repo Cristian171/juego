@@ -9,13 +9,14 @@ namespace MoreMountains.CorgiEngine
 	/// It extends the base class MMAchievementRules
 	/// It listens for different event types
 	/// </summary>
-	public class AchievementRules : MMAchievementRules, 
-		MMEventListener<MMGameEvent>, 
-		MMEventListener<MMCharacterEvent>, 
+	public class AchievementRules : MMAchievementRules,
+		MMEventListener<MMGameEvent>,
+		MMEventListener<MMCharacterEvent>,
 		MMEventListener<CorgiEngineEvent>,
 		MMEventListener<MMStateChangeEvent<CharacterStates.MovementStates>>,
 		MMEventListener<MMStateChangeEvent<CharacterStates.CharacterConditions>>,
 		MMEventListener<PickableItemEvent>
+		
 	{
 		/// <summary>
 		/// When we catch an MMGameEvent, we do stuff based on its name
@@ -36,7 +37,13 @@ namespace MoreMountains.CorgiEngine
 				{
 					case MMCharacterEventTypes.Jump:
 						MMAchievementManager.AddProgress ("JumpAround", 1);
+                        MMAchievementManager.AddProgress("ProJump", 1);
+
+                        break;
+					case MMCharacterEventTypes.Crouch:
+						MMAchievementManager.UnlockAchievement("LookDown");
 						break;
+
 				}	
 			}
 		}
@@ -50,8 +57,14 @@ namespace MoreMountains.CorgiEngine
 					break;
 				case CorgiEngineEventTypes.PlayerDeath:
 					MMAchievementManager.UnlockAchievement ("DeathIsOnlyTheBeginning");
+					MMAchievementManager.AddProgress("TenDeaths", 1);
 					break;
-			}
+                case CorgiEngineEventTypes.Respawn:
+					MMAchievementManager.UnlockAchievement ("Respawn");
+					break;
+               
+
+            }
 		}
 
 		public virtual void OnMMEvent(PickableItemEvent pickableItemEvent)
@@ -61,12 +74,16 @@ namespace MoreMountains.CorgiEngine
 				if (pickableItemEvent.PickedItem.GetComponent<Coin>() != null)
 				{
 					MMAchievementManager.AddProgress ("MoneyMoneyMoney", 1);
-				}
+                    MMAchievementManager.AddProgress("Money", 1);
+                    MMAchievementManager.AddProgress("MoneyMoney", 1);
+                }
+
 				if (pickableItemEvent.PickedItem.GetComponent<Stimpack>() != null)
 				{
 					MMAchievementManager.UnlockAchievement ("Medic");
 				}
-			}
+              
+            }
 		}
 
 		public virtual void OnMMEvent(MMStateChangeEvent<CharacterStates.MovementStates> movementEvent)
@@ -77,13 +94,7 @@ namespace MoreMountains.CorgiEngine
 			}*/
 		}
 
-		public virtual void OnMMEvent(MMStateChangeEvent<CharacterStates.CharacterConditions> conditionEvent)
-		{
-			/*switch (conditionEvent.NewState)
-			{
-
-			}*/
-		}
+	
 
 		/// <summary>
 		/// On enable, we start listening for MMGameEvents. You may want to extend that to listen to other types of events.
@@ -91,11 +102,12 @@ namespace MoreMountains.CorgiEngine
 		protected override void OnEnable()
 		{
 			base.OnEnable ();
-			this.MMEventStartListening<MMCharacterEvent>();
+            this.MMEventStartListening<MMCharacterEvent>();
 			this.MMEventStartListening<CorgiEngineEvent>();
 			this.MMEventStartListening<MMStateChangeEvent<CharacterStates.MovementStates>>();
 			this.MMEventStartListening<MMStateChangeEvent<CharacterStates.CharacterConditions>>();
 			this.MMEventStartListening<PickableItemEvent>();
+
 		}
 
 		/// <summary>
@@ -110,5 +122,10 @@ namespace MoreMountains.CorgiEngine
 			this.MMEventStopListening<MMStateChangeEvent<CharacterStates.CharacterConditions>>();
 			this.MMEventStopListening<PickableItemEvent>();
 		}
-	}
+
+        public void OnMMEvent(MMStateChangeEvent<CharacterStates.CharacterConditions> eventType)
+        {
+            throw new System.NotImplementedException();
+        }
+    }
 }
