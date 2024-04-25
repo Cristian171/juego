@@ -225,6 +225,21 @@ EditorBuildSettings:
     path: Assets/Juego/Scenes/Nivel 1.unity
     guid: 7374ccf45c0db5e4295273dfcef8c0dc
   - enabled: 1
+    path: Assets/Juego/Scenes/Nivel 1 Mid.unity
+    guid: e118386f53bb3ed4fb9654d088598389
+  - enabled: 1
+    path: Assets/Juego/Scenes/Nivel 1 Hard.unity
+    guid: 555415fd6dc73784aaf907adf1b57101
+  - enabled: 1
+    path: Assets/Juego/Scenes/Nivel 2.unity
+    guid: 462d8e8195139ae46b25027802898287
+  - enabled: 1
+    path: Assets/Juego/Scenes/Nivel 2 Mid.unity
+    guid: aaf6460b557036c47b384c6d7bd249d4
+  - enabled: 1
+    path: Assets/Juego/Scenes/Nivel 2 Hard.unity
+    guid: 9a80ae98a352e5c40adb04b924fbf972
+  - enabled: 1
     path: Assets/Juego/Scenes/Perdio.unity
     guid: 8d0fec73185f17743a5c6eebf523f19b
   - enabled: 1
@@ -236,7 +251,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Juego/Scenes/Creditos.unity
     guid: 6c66dbb49abf8fe499e33fd2d9169e79
-  - enabled: 0
+  - enabled: 1
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/MMAdditiveLoadingScreenSimple.unity
     guid: 945e5b97212e8e74ebcd35bddde3970c
   - enabled: 1

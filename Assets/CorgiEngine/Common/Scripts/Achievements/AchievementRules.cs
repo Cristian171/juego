@@ -52,8 +52,13 @@ namespace MoreMountains.CorgiEngine
 		{
 			switch (corgiEngineEvent.EventType)
 			{
-				case CorgiEngineEventTypes.LevelEnd:
-					MMAchievementManager.UnlockAchievement ("PrincessInAnotherCastle");
+                case CorgiEngineEventTypes.LevelEnd:
+                    if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "NombreDeLaEscena")
+                    {
+                        // Desbloquea el logro cuando se completa la escena específica
+                        MMAchievementManager.UnlockAchievement("LogroDeNivelEspecifico");
+                    }
+                    MMAchievementManager.UnlockAchievement ("PrincessInAnotherCastle");
 					break;
 				case CorgiEngineEventTypes.PlayerDeath:
 					MMAchievementManager.UnlockAchievement ("DeathIsOnlyTheBeginning");
@@ -88,10 +93,11 @@ namespace MoreMountains.CorgiEngine
 
 		public virtual void OnMMEvent(MMStateChangeEvent<CharacterStates.MovementStates> movementEvent)
 		{
-			/*switch (movementEvent.NewState)
+			switch (movementEvent.NewState)
 			{
+				
+			}
 
-			}*/
 		}
 
 	
