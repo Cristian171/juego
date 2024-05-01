@@ -18,9 +18,8 @@ namespace MoreMountains.CorgiEngine
 	/// It requires a Collider2D and a rigidbody to function.
 	/// </summary>
 	[AddComponentMenu("Corgi Engine/Character/Core/Corgi Controller")] 
-	public class CorgiController : CorgiMonoBehaviour
-    {
-
+	public class CorgiController : CorgiMonoBehaviour 
+	{
 		/// the possible modes this controller can update on
 		public enum UpdateModes {Update, FixedUpdate}
 		
@@ -1901,8 +1900,6 @@ namespace MoreMountains.CorgiEngine
 		/// <param name="collider">the object we're colliding with.</param> 
 		protected virtual void OnTriggerEnter2D(Collider2D collider)
 		{
-			
-
 			CorgiControllerPhysicsVolume2D parameters = collider.gameObject.MMGetComponentNoAlloc<CorgiControllerPhysicsVolume2D>();
 			if (parameters != null)
 			{
@@ -1941,6 +1938,4 @@ namespace MoreMountains.CorgiEngine
 			}
 		}
 	}
-
-	
 }
