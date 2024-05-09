@@ -234,23 +234,20 @@ EditorBuildSettings:
     path: Assets/Proyecto/Assets/Escenas/Instrucciones.unity
     guid: 5490007d7edab1b47b790e56e6ce4057
   - enabled: 1
-    path: Assets/Proyecto/Assets/Escenas/Nivel 4.unity
-    guid: 653c3ea65f46ad046b6e599197d60c04
+    path: Assets/Juego/Scenes/Nivel 1 Hard.unity
+    guid: e3dc585d75c6cde4dae185182c11bd84
+  - enabled: 1
+    path: Assets/Juego/Scenes/Nivel 1.unity
+    guid: 7374ccf45c0db5e4295273dfcef8c0dc
+  - enabled: 1
+    path: Assets/Juego/Scenes/Nivel 1 Mid.unity
+    guid: 9e28ee33309c4894daa35c64dda09c5f
   - enabled: 1
     path: Assets/Proyecto/Assets/Escenas/Perdio.unity
     guid: 0dc275943866a4a48a703a504f13b0d8
   - enabled: 1
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb
-  - enabled: 1
-    path: Assets/Juego/Scenes/Nivel 1.unity
-    guid: 7374ccf45c0db5e4295273dfcef8c0dc
-  - enabled: 1
-    path: Assets/Juego/Scenes/Nivel 1 Hard.unity
-    guid: 555415fd6dc73784aaf907adf1b57101
-  - enabled: 1
-    path: Assets/Juego/Scenes/Nivel 1 Mid.unity
-    guid: e118386f53bb3ed4fb9654d088598389
   - enabled: 1
     path: Assets/Juego/Scenes/Logros.unity
     guid: 4c40614ae42c20141843900b1330a6fe
