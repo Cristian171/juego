@@ -4606,7 +4606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 1f2a66a756024aa4c9a620cfda0854ed, type: 3}
       propertyPath: OnActivation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Gano
+      value: Nivel 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 1f2a66a756024aa4c9a620cfda0854ed, type: 3}
       propertyPath: OnActivation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

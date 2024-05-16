@@ -38,11 +38,13 @@ namespace MoreMountains.CorgiEngine
 					case MMCharacterEventTypes.Jump:
 						MMAchievementManager.AddProgress ("JumpAround", 1);
                         MMAchievementManager.AddProgress("ProJump", 1);
+                        MMAchievementManager.AddProgress("BunnyHopper", 1);
 
                         break;
 					case MMCharacterEventTypes.Crouch:
 						MMAchievementManager.UnlockAchievement("LookDown");
-						break;
+                        MMAchievementManager.AddProgress("Nuuh", 1);
+                        break;
 
 				}	
 			}
@@ -58,10 +60,12 @@ namespace MoreMountains.CorgiEngine
 				case CorgiEngineEventTypes.PlayerDeath:
 					MMAchievementManager.UnlockAchievement ("DeathIsOnlyTheBeginning");
 					MMAchievementManager.AddProgress("TenDeaths", 1);
-					break;
+                    MMAchievementManager.AddProgress("DeathLord", 1);
+                    break;
                 case CorgiEngineEventTypes.Respawn:
 					MMAchievementManager.UnlockAchievement ("Respawn");
-					break;
+                    MMAchievementManager.AddProgress("Game", 1);
+                    break;
                
 
             }
@@ -81,7 +85,8 @@ namespace MoreMountains.CorgiEngine
 				if (pickableItemEvent.PickedItem.GetComponent<Stimpack>() != null)
 				{
 					MMAchievementManager.UnlockAchievement ("Medic");
-				}
+                    MMAchievementManager.AddProgress("Doctor", 1);
+                }
               
             }
 		}

@@ -31,15 +31,15 @@ MonoBehaviour:
     HiddenAchievement: 0
     UnlockedStatus: 0
     Title: Jump Around
-    Description: Jump at least 10 times
-    Points: 100
+    Description: Salta un total de 10 veces
+    Points: 10
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 10
     ProgressCurrent: 0
   - AchievementID: MoneyMoneyMoney
-    AchievementType: 0
+    AchievementType: 1
     HiddenAchievement: 0
     UnlockedStatus: 0
     Title: Money Money Money
@@ -73,4 +73,124 @@ MonoBehaviour:
     UnlockedImage: {fileID: 21300006, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 0
+    ProgressCurrent: 0
+  - AchievementID: Money
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: Money
+    Description: agarra una moneda
+    Points: 25
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300002, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 1
+    ProgressCurrent: 0
+  - AchievementID: MoneyMoney
+    AchievementType: 1
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: MoneyMoney
+    Description: Agarra 2 monedas
+    Points: 25
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300002, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 2
+    ProgressCurrent: 0
+  - AchievementID: Respawn
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: There u go
+    Description: Revive una vez
+    Points: 25
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: b1d17a7743801f847adbf36ed1437282, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 1
+    ProgressCurrent: 0
+  - AchievementID: LookDown
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: A donde miras?
+    Description: Agachate
+    Points: 25
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: e3ff2bb712212bf43a60e62bea0e318b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 1
+    ProgressCurrent: 0
+  - AchievementID: ProJump
+    AchievementType: 1
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: Pro jump
+    Description: Salta un total de 25 veces
+    Points: 25
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 25
+    ProgressCurrent: 0
+  - AchievementID: TenDeaths
+    AchievementType: 1
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: skill issue
+    Description: Muere 10 veces
+    Points: 10
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300008, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 10
+    ProgressCurrent: 0
+  - AchievementID: DeathLord
+    AchievementType: 1
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: "Se\xF1or de la muerte"
+    Description: Muere 100 veces
+    Points: 10
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300008, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 100
+    ProgressCurrent: 0
+  - AchievementID: Doctor
+    AchievementType: 1
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: Doctor
+    Description: Agarra 5 curas
+    Points: 10
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300006, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 5
+    ProgressCurrent: 0
+  - AchievementID: Game
+    AchievementType: 1
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: otra vez?
+    Description: Revive 5 veces
+    Points: 10
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300006, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 5
+    ProgressCurrent: 0
+  - AchievementID: Nuuh
+    AchievementType: 1
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: NO hay nada ahi
+    Description: Mira para abajo 15 veces
+    Points: 35
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: e3ff2bb712212bf43a60e62bea0e318b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 15
     ProgressCurrent: 0
