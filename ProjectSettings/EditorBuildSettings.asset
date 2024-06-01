@@ -213,6 +213,12 @@ EditorBuildSettings:
     path: Assets/CorgiEngine/Demos/RetroAdventure/RetroAdventureGameOver.unity
     guid: aba2daab4ea9f82428c58d957862f82d
   - enabled: 1
+    path: Assets/Juego/Scenes/Jugar.unity
+    guid: d8004b9c63035214dadf8b7b0572e8d9
+  - enabled: 1
+    path: Assets/Juego/Scenes/Instrucciones.unity
+    guid: 766ca061ced5bfe4d85b22c95d2c32da
+  - enabled: 1
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/MMAdditiveLoadingScreenBigText.unity
     guid: dedb2bed56a01c241be42c5c5b5748ca
   - enabled: 1
@@ -251,5 +257,32 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Juego/Scenes/Logros.unity
     guid: 4c40614ae42c20141843900b1330a6fe
+  - enabled: 1
+    path: Assets/Juego/Scenes/Nivel 2.unity
+    guid: 462d8e8195139ae46b25027802898287
+  - enabled: 1
+    path: Assets/Juego/Scenes/Nivel 2 Hard.unity
+    guid: 9a80ae98a352e5c40adb04b924fbf972
+  - enabled: 1
+    path: Assets/Juego/Scenes/Nivel 2 Mid.unity
+    guid: aaf6460b557036c47b384c6d7bd249d4
+  - enabled: 1
+    path: Assets/Juego/Scenes/Nivel 3.unity
+    guid: b2c3d96dd97d67c4bb2b1e54a6f98acb
+  - enabled: 1
+    path: Assets/Juego/Scenes/Nivel 3 Hard.unity
+    guid: 9dee88814353b2c4e8a98ec9da0e6423
+  - enabled: 1
+    path: Assets/Juego/Scenes/Nivel 3 Mid.unity
+    guid: db2ae98bc04dcad4fbf7fac49a38c42b
+  - enabled: 1
+    path: Assets/Juego/Scenes/Nivel3.unity
+    guid: e6ec9c48a3b925b438a7b393a0e62433
+  - enabled: 1
+    path: Assets/Juego/Scenes/Perdio.unity
+    guid: 8d0fec73185f17743a5c6eebf523f19b
+  - enabled: 1
+    path: Assets/Juego/Scenes/Creditos.unity
+    guid: 6c66dbb49abf8fe499e33fd2d9169e79
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
