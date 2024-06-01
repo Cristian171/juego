@@ -1,4 +1,5 @@
-![Inicio del juego]([https://cdn.discordapp.com/attachments/876619774044549130/1210244307135500348/iniciotitulo.png?ex=66058a58&is=65f31558&hm=ca8979d878eae09a27165fed067c760454ed0bb46667197fb4e9c8848826dad1&](https://media.discordapp.net/attachments/876619774044549130/1210244307135500348/iniciotitulo.png?ex=665be498&is=665a9318&hm=69679ddd0c2f8a199e662cf0cbd8e43774ca329d45c30c9f0ba4da12752f2db2&=&format=webp&quality=lossless&width=931&height=662))
+![Inicio del juego](![image](https://github.com/Cristian171/juego/assets/72422960/53e2c427-f3ec-43d2-a158-a4df461cc34c)
+)
 
 # La búsqueda de la cola perdida: Aventuras de Corgi
 
